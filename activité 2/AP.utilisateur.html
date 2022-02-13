@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Bienvenue sur mon site web</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+
+		<?php
+		if (isset($_POST['identifiant']) AND isset($_POST['mot de passe']))
+		{
+		echo <p>Bonjour utilisateur</p>
+		}
+
+		$var_identifiant = $_POST['identifiant'];
+ 		$var_motdepasse = $_POST['motdepasse'];
+
+
+		?>
+
+		
+	</body>
+</html>
+		

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Bienvenue sur mon site web</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	
+	<body>
+	<p>
+		Cette page vous permez de savoir votre <b>imc</b> en fonction de différent parametre <b>ci-dessous</b> : <br />
+		</br>
+		<b>Veuillez taper votre Poids </b>(en kg) :
+	</p>
+	<form action="cible.php" method="post">
+	<p>
+		<input type="text" name="poids" />
+		
+	<p/>
+	<b>Veuillez taper votre taille </b>(en cm) :
+	</p>
+	<form action="cible.php" method="post">
+	<p>
+		<input type="text" name="taille" />
+		
+	<p/>
+	</br>
+	<p><b>Veuillez indiquer votre genre</b></p>
+	<p>
+	<form action="cible.php" method="post">
+	<input type="checkbox" name="femme" id="case" /> <label for="case">femme</label>
+	<input type="checkbox" name="homme" id="case" /> <label for="case">homme</label>
+	<input type="submit" value="Valider" />
+</p>
+	</form>
+
+	</body>
+	
+
+
+</html>
