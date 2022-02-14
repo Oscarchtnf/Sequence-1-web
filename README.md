@@ -3,7 +3,7 @@
 Dans cette sequence n°1 nous avons vus les bases des _languages_ webs en 2 _activités_ 
 ## Voici le _SOMMAIRE_ du répéretoire
 
-* *Acivités 1 :*  
+* *### Acivités 1 :*  
 `* Déscription`  
 Dans l'activité 1 nous voyons les liens entre 2 sites web, les bases d'un site web, avec un peu de language CSS
 * *Acivités 2 :*  
